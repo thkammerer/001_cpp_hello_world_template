@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+out/
+bin/
+lib/
+
+# CMake
+CMakeUserPresets.json
+CTestTestfile.cmake
+Testing/
+cmake_install.cmake
+compile_commands.json
+
+# VS Code
+.vscode/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
