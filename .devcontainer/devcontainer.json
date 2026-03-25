@@ -6,7 +6,9 @@
       "extensions": [
         "ms-vscode.cpptools",
         "ms-vscode.cmake-tools",
-        "ms-vscode.makefile-tools"
+        "ms-vscode.makefile-tools",
+        "matepek.vscode-catch2-test-adapter",
+        "amiralizadeh9480.cpp-helper"        
       ],
       "settings": {
         "cmake.useCMakePresets": "always",

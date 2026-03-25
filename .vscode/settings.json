@@ -1,5 +1,33 @@
 {
   "cmake.useCMakePresets": "always",
   "cmake.configureOnOpen": true,
-  "C_Cpp.default.cppStandard": "c++20"
+
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+
+  "files.associations": {
+    "*.tpp": "cpp",
+    "*.ipp": "cpp"
+  },
+
+  "testMate.cpp.test.advancedExecutables": [
+    {
+      "pattern": "build/unit_tests",
+      "cwd": "${workspaceFolder}/build"
+    },
+    {
+      "pattern": "build/**/unit_tests*",
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+
+  "testMate.cpp.log.logpanel": true,
+  "testMate.cpp.test.parallelExecutionLimit": 1,
+
+  "CppHelper.SourcePattern": [
+    "{FILE}.cpp",
+    "/src/{FILE}.cpp"
+  ],
+  "CppHelper.HeaderGuardPattern": "{FILE}_HPP",
+  "CppHelper.SourceNotFoundBehavior": "Create source file"
 }
