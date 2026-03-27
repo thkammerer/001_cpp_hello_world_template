@@ -35,10 +35,16 @@ ctest --preset default
 3. Build and run tests again.
 4. Commit and push your change.
 
-## Useful Git commands
+
+## Git 
+Git book
+https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F
+
+Important git commands
+https://www.geeksforgeeks.org/git/top-12-most-used-git-commands-for-developers/
 
 ```bash
-git add .
 git commit -m "First change"
 git push
+git pull
 ```
